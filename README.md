@@ -20,28 +20,28 @@ L’objectif est de mettre en place un environnement Python complet et de créer
 
 ## ⚙️ Installation et configuration
 
-### 1️ Cloner le dépôt
+### 1️ - Cloner le dépôt
 
 -> git clone https://github.com/<ton-nom-utilisateur>/analyse_sentiment.git
 -> cd analyse_sentiment
 
-### 2 Créer un environnement virtuel
+### 2 - Créer un environnement virtuel
 -> python -m venv .venv311
 -> .\.venv311\Scripts\activate
 
-### 3 Installer les dépendances
+### 3 - Installer les dépendances
 -> pip install -r requirements.txt
 
 
 
 ## Lancer l'application
 
-### 1 démarrer le serveur Fast API
+### 1 - démarrer le serveur Fast API
  -> uvicorn sentiment_api:app --host 127.0.0.1 --port 9000 --reload
 
 Ouvre http://127.0.0.1:9000/docs pour tester les routes API.
 
-### 2 Démarrer l'interface Streamlit**
+### 2 - Démarrer l'interface Streamlit**
 Dans un deuxième terminal avec "venv" activé : 
 
  -> streamlit run sentiment_streamlit.py
@@ -83,5 +83,6 @@ analyse_sentiment/
 │   └── streamlit_app.log
 └── tests/                      # (optionnel) Tests Pytest
 
+---
 
-Réalisé par Roland RENIER dans le cadre de la formation IA - OPCO Atlas X simplon (Module 0)
+> Auteur : Roland RENIER - Dans le cadre de la formation IA - OPCO Atlas X simplon (Module 0)
