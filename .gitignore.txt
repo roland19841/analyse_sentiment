@@ -1,0 +1,13 @@
+# Environnement virtuel
+.venv/
+.venv311/
+__pycache__/
+
+# Logs
+logs/
+
+# Fichiers système
+*.pyc
+*.pyo
+*.DS_Store
+Thumbs.db
